@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: #007bff; /* Change to a blue background */
+    color: white; /* Change text color to white */
+    border-color: #0056b3; /* Darker border color */
+}
+
+.result {
+    max-height: 400px;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: gold;
+    overflow: auto;
+}
